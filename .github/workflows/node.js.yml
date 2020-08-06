@@ -31,4 +31,4 @@ jobs:
     env:
       GITHUB_TOKEN: ${{ secrets.TOKEN }}
       GIST_ID: c0bfedac2cc80a315712c498c1e6a8f6
-      CODESTATS_USER: Anc
+      CODESTATS_USER: chocotan
