@@ -28,7 +28,7 @@ https.get('https://codestats.net/api/users/' + CODESTATS_USER, (resp) => {
     let xp_2 = Math.pow(level_2 * 40,2);
     let percent = parseInt((res.total_xp - xp_1) / (xp_2 - xp_1) * 100);
 
-	console.log("res:"+JSON.stringfy(res))
+	console.log("res:"+JSON.stringify(res))
 
 	let languages = res.languages;
 	var lang_content = "";
