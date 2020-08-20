@@ -73,6 +73,7 @@ function generateBarChart(percent, size) {
             }
       const semi = frac % 8;
 
+      console.log(barsFull)
       return [syms.substring(8, 9).repeat(barsFull), syms.substring(semi, semi + 1)]
         .join("")
         .padEnd(size, syms.substring(0, 1));
